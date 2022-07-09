@@ -1,0 +1,31 @@
+﻿
+#postBody {
+    font-family: sans-serif;
+    border-radius: 20px;
+    background-color: lightgrey;
+    border: 1px solid;
+}
+
+.navLinks > navLink {
+    padding: 3px;
+    font-family: monospace;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.title-author-style {
+    text-align: center;
+}
+
+#category-link {
+    padding: 4px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: underline;
+    border-radius: 15px;
+    background-color: green;
+    border: 1px solid black;
+}
+

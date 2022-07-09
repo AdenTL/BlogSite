@@ -1,0 +1,15 @@
+﻿#bodyDetailStyle {
+    padding: 4px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border: 1px solid;
+}
+
+#authorDetailStyle {
+    color: crimson;
+}
+
+#titleDetailStyle {
+    text-align: center;
+}

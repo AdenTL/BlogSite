@@ -1,7 +1,10 @@
+using template_csharp_blog;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<BlogContext>();
 
 var app = builder.Build();
 

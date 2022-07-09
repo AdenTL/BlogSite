@@ -1,18 +1,125 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    background-color: slategray;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+     font-size: 16px;
   }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
-
+.nav-item > a:hover {
+    background-color: grey;
+    border-radius: 25px;
+}
+.nav-item > a {
+    border-radius: 25px;
+}
+header {
+    background-color: darkgrey;
+}
 body {
-  margin-bottom: 60px;
+    background-color: slategray;
+    margin-bottom: 60px;
+}
+.container {
+    border: 1px solid;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+    background-color: grey;
+}
+#blogsLogo {
+    border-radius: 80px;
+    margin-bottom: 10px;
+    max-height: 45px;
+}
+#blogsLogo:hover {
+    background-color: grey;
+    border-radius: 80px;
+    transition: .25s;
+    transform: scale(1.10);
+}
+table {
+    background-color: lightslategray;
+    border: 4px solid;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+thead {
+    color: antiquewhite;
+    background-color: black
+}
+td {
+    font-weight: 600;
+}
+td > a {
+    padding: 3px;
+    font-family: monospace;
+    color:antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+main > p > a {
+    font-family: monospace;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: azure;
+    background-color: green
+}
+.detailsLinks > a {
+    padding: 3px;
+    font-family: monospace;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+.detailsLinks > a:hover {
+    color: #0d6efd;
+}
+footer > .container {
+    color: black;
+    text-align: center;
+}
+footer > .container > a {
+    font-family: monospace;
+    padding: 1px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+footer > .container > a:hover {
+    color: #0d6efd;
+}
+#homePostLink {
+    font-family: monospace;
+    padding: 4px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+#homePostLink:hover {
+    color: #0d6efd;
+}
+#homeCategoryLink {
+    font-family: monospace;
+    padding: 4px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: black;
+}
+#homeCategoryLink:hover {
+    color: #0d6efd;
 }
