@@ -17,7 +17,7 @@ namespace template_csharp_blog.Controllers
             return View(db.Categories.ToList());
         }
 
-        public IActionResult Details(int id)         //TODO: show all posts for category in category/details
+        public IActionResult Details(int id)
         {
             return View(db.Categories.ToList().Where(c => c.Id == id).FirstOrDefault());
         }
